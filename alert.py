@@ -34,7 +34,7 @@ while True:
 		#if x == 0:
 		#	subprocess.call(['aplay /home/pi/Downloads/135499__compusician__halloween-002-wav-120b.wav'], shell=True)
 		#if x == 1:
-       subprocess.call(['aplay "/home/pi/bleep_01.wav"'], shell=True)
+       subprocess.call(['aplay "bleep_01.wav"'], shell=True)
                 #if x == 2:
                  #       subprocess.call(['aplay /home/pi/Downloads/348859__robinhood76__06721-long-scary-hinge-creak.wav'], shell=True)
                 

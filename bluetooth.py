@@ -22,7 +22,7 @@ def connect():
     time.sleep(5)
     subprocess.call("pulseaudio --start",shell=True)
     subprocess.call("pacmd set-default-sink bluez_sink.C8_84_47_26_E6_3C",shell=True)
-    subprocess.call("aplay /home/pi/bleep_01.wav", shell=True)
+    subprocess.call("aplay Glados.wav", shell=True)
 
 connect()
 

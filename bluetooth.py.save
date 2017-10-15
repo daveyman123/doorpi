@@ -1,9 +1,9 @@
 #import bluetooth as bt
 #import sh
 import time
+#import pexpect
 import sys
 sys.path.insert(0, 'libs')
-import pexpect
 from sh import bluetoothctl
 import subprocess
 mac = "C8:84:47:26:E6:3C"

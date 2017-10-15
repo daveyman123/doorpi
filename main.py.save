@@ -3,7 +3,7 @@ import webapp2
 #import sys
 #sys.path.insert(0, 'libs')
 from google.appengine.ext import vendor
-#import pexpect
+
 vendor.add('lib')
 import pexpect
 
